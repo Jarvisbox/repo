@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.jarvisbox.notifications"
+       name="JarvisBox Notifications"
+       version="1.0.5"
+       provider-name="JarvisBox">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>JarvisBox Notifications</summary>
+  	<description></description>
+  	<disclaimer></disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
