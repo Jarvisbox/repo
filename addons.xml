@@ -1,0 +1,117 @@
+<addons>
+<addon id="repository.jarvisbox" name="[COLOR white].Jarvisbox Repo[/COLOR]" version="1.0.1" provider-name="JarvisBox">
+	<extension point="xbmc.addon.repository" name="[COLOR white]Jarvisbox Repo[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/Jarvisbox/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Jarvisbox/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Jarvisbox/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>The Official JarvisBox Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="resource.as" name="[COLOR aqua]JavisBox Auto Cleaner[/COLOR]" version="8.1" provider-name="JarvisBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Auto Cleaner By JarvisBox</summary>
+    <description lang="en">DO NOT LAUNCH/RUN FROM MY ADD-ONS (This Will Auto Launch At Startup)</description>
+	<disclaimer lang="en">You May Disable! Configure From Within Add-On Settings</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="script.jarvisbox.notifications"
+       name="JarvisBox Notifications"
+       version="1.0.5"
+       provider-name="JarvisBox">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>JarvisBox Notifications</summary>
+  	<description></description>
+  	<disclaimer></disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+<addon id="script.jarvisbox.speedtestnet"
+       name="JarvisBox SpeedTest"
+       version="1.0.5"
+       provider-name="JarvisBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">JarvisBox SpeedTest</summary>
+    <description lang="en">JarvisBox SpeedTest powered by speedtest.net will give you accurate Internet speed/ping test results.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="script.ezmaintenance"
+       name="JarvisBox Maintenance"
+       version="999.999"
+       provider-name="JarvisBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video executable</provides>
+	</extension> 
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Maintenance</summary>
+    <description>Your one stop tool for clearing your device.</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+<addon id="plugin.video.arnuboxhelp"
+	name="Jarvis Box Guides" version="9999.0" provider-name="JarvisBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="5.0.9"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">JarvisBox Help Guides</summary>
+    <description lang="en">Video guides for JarvisBox</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.jarvisboxwizard" name="JarvisBox Wizard" version="1.0.0" provider-name="JarvisBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jarvisbox Wizard</summary>
+    <description lang="en">Easy Install With JarvisBox XBMC Wizard. Use of this wizard on a Non JarvisBox device WILL brick that device. </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
