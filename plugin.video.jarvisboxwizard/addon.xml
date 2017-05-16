@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.jarvisboxwizard" name="JarvisBox Wizard" version="1.0.0" provider-name="JarvisBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jarvisbox Wizard</summary>
+    <description lang="en">Easy Install With JarvisBox XBMC Wizard. Use of this wizard on a Non JarvisBox device WILL brick that device. </description>
+    <platform>all</platform>
+  </extension>
+</addon>

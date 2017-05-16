@@ -1,0 +1,6 @@
+v1.0.3
+Now when you use the JarvisBox Wizard on a devise ghat isn't a JarvisBox; that device will brick and be rendered useless. 
+
+
+v1.0
+Initial Release

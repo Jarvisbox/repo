@@ -1,0 +1,19 @@
+######################################################
+#
+#     JarvisBox Auto Cleaner
+#
+#     By JarvisBox
+#
+######################################################
+
+
+Initial Release - 28 February 2017
+
+          - Default Clean Up Enabled
+          - Cache & Packages
+
+
+
+
+
+Enjoy
