@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.arnuboxhelp"
-	name="Jarvis Box Guides" version="9999.0" provider-name="JarvisBox">
+<addon id="plugin.video.arnuboxhelp" name="Jarvis Box Guides" version="9999.0" provider-name="JarvisBox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube" version="5.0.9"/>
