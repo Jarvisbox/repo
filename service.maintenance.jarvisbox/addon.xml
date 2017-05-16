@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.ezmaintenance" name="JarvisBox Maintenance" version="999.999" provider-name="JarvisBox">
+<addon id="script.ezmaintenance"
+       name="JarvisBox Maintenance"
+       version="999.999"
+       provider-name="JarvisBox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
